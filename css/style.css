@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+/*
+    --color-body: #0f0e17;
+    --color-heading: #fffffe;
+    --color-card: #fef6e4;
+    --color-paragraph: #a7a9be;
+    --color-hover:#8bd3dd;
+    --color-icon2: #e53170;
+    --color-brand: #ff8906;
+    
+*/
+body {
+    background-color: #0f0e17;
+    color: #a7a9be;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #a7a9be;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #0f0e17;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: #fef6e4;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.text-brand {
+    color: #ff8906;
+}
+
+.bg-base {
+    background-color: #fffffe;
+}
+
+.about p {
+    color: #2e2f3e;
+}
+
+.about h4 {
+    color: #ff8906;
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 #ff8906;
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: #a7a9be;
+    color: #e53170;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #a7a9be;
+}
+
+.navbar a {
+    color: #0f0e17;
+}
+
+.navbar a:hover {
+    color: #ff8906;
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.navbar .nav-link:hover {
+    color: #ff8906;
+}
+
+.navbar-toggler {
+    background-color: #a7a9be;
+}
+
+.navbar .nav-link.active {
+    color: #ff8906;
+}
+
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: 240px;
+        background-color: #a7a9be;
+
+    }
+
+    .navbar-brand img {
+        filter: grayscale(70%);
+        background-image: cover;
+        -moz-box-shadow: 0px 6px 5px #504f4f;
+        -webkit-box-shadow: 0px 6px 5px #504f4f;
+        box-shadow: 0px 6px 5px #504f4f;
+        -moz-border-radius: 190px;
+        -webkit-border-radius: 190px;
+        border-radius: 190px;
+    }
+
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-left: 240px;
+    }
+}
+
+/* BTN */
+.btn {
+    padding: 12px 28px;
+    font-weight: 600;
+
+}
+
+.btn-brand {
+    background-color: #ff8906;
+    border-color: #ff8906;
+}
+
+.btn-brand:hover {
+    background-color: #ff8906;
+    border-color: #ff8906;
+    color: #e53170;
+}
+
+/* CARD */
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+.card-custom img {
+    filter: grayscale(80%);
+}
+
+.card-custom h4 {
+    color: #ff8906;
+}
+
+.card-custom-content p {
+    color: #0f0e17;
+}
+
+footer {
+    background-color: #fffffe;
+    color: #e53170;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+footer a {
+    color:#e53170;
+    margin: 0 10px;
+    font-size: 60px;
+    transition: all 0.4s ease;
+}
+footer a:hover{
+    transform: scale(1.1);
+    color: #0f0e17;
+}
